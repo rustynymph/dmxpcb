@@ -1461,6 +1461,133 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="XLR-3_MALE">
+<description>&lt;h3&gt;XLR-3 Connector - Package for the NC3MAAH-1 XLR-3 Connector&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5&lt;/li&gt;
+&lt;li&gt;Area: 1 x .7 in&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=http://www.neutrik.us/zoolu-website/media/download/1429/Drawing+NC3MAAH-1&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<rectangle x1="-12.5" y1="8.89" x2="12.8" y2="11.59" layer="51"/>
+<pad name="3" x="0" y="-8.89" drill="1.2"/>
+<pad name="1" x="3.81" y="-8.89" drill="1.6002"/>
+<pad name="2" x="-3.81" y="-8.89" drill="1.6002"/>
+<text x="-5.08" y="12.7" size="1.27" layer="51" font="vector">Front Edge</text>
+<text x="-5.08" y="15.24" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-11" y1="8.8" x2="11" y2="11.7" layer="51"/>
+<wire x1="-10.922" y1="8.763" x2="-10.922" y2="-5.08" width="0.2032" layer="51"/>
+<wire x1="-10.922" y1="-5.08" x2="-6.35" y2="-5.08" width="0.2032" layer="51"/>
+<wire x1="-6.35" y1="-5.08" x2="-6.35" y2="-10.16" width="0.2032" layer="51"/>
+<wire x1="-6.35" y1="-10.16" x2="6.35" y2="-10.16" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-10.16" x2="6.35" y2="-5.08" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-5.08" x2="10.922" y2="-5.08" width="0.2032" layer="51"/>
+<wire x1="10.922" y1="-5.08" x2="10.922" y2="8.89" width="0.2032" layer="51"/>
+<hole x="-3.81" y="5.08" drill="1.6002"/>
+<hole x="3.81" y="0" drill="1.6002"/>
+</package>
+<package name="XLR-3_FEMALE">
+<description>&lt;h3&gt;XLR-3 Connector - Package for the NC3FAAH-1 XLR-3 Connector&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5&lt;/li&gt;
+&lt;li&gt;Area: 1 x .7 in&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=http://www.neutrik.us/zoolu-website/media/download/1389/Drawing+NC3FAAH1&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<rectangle x1="-12.5" y1="12.7" x2="12.8" y2="15.4" layer="51"/>
+<pad name="3" x="0" y="-4.445" drill="1.2"/>
+<pad name="1" x="-3.81" y="0" drill="1.6002"/>
+<pad name="2" x="3.81" y="-0.635" drill="1.6002"/>
+<text x="-5.08" y="16.51" size="1.27" layer="51" font="vector">Front Edge</text>
+<text x="-5.08" y="19.05" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-8.89" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-11" y1="12.6" x2="11" y2="15.5" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="12.7" width="0.2032" layer="39"/>
+<wire x1="3.81" y1="12.7" x2="-12.7" y2="12.7" width="0.2032" layer="39"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="6.35" width="0.2032" layer="39"/>
+<wire x1="-12.7" y1="6.35" x2="-10.16" y2="6.35" width="0.2032" layer="39"/>
+<wire x1="-10.16" y1="6.35" x2="-10.16" y2="-2.54" width="0.2032" layer="39"/>
+<wire x1="-10.16" y1="-2.54" x2="-1.27" y2="-2.54" width="0.2032" layer="39"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-3.81" width="0.2032" layer="39"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.2032" layer="39"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-1.27" width="0.2032" layer="39"/>
+<wire x1="1.27" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="39"/>
+<wire x1="-10.922" y1="12.7" x2="-10.922" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-10.922" y1="1.27" x2="-6.35" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-6.35" width="0.2032" layer="51"/>
+<wire x1="-6.35" y1="-6.35" x2="6.35" y2="-6.35" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="-6.35" x2="6.35" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="1.27" x2="10.922" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="10.922" y1="1.27" x2="10.922" y2="12.7" width="0.2032" layer="51"/>
+<hole x="-3.81" y="8.89" drill="1.6002"/>
+<hole x="3.81" y="3.81" drill="1.6002"/>
+</package>
+</packages>
+<symbols>
+<symbol name="XLR-3">
+<description>&lt;h3&gt;Neutrik XLR-3 Jack - XLR-3 Jack for DMX&lt;/h3&gt;
+&lt;p&gt;Symbol for a horizontal, 3-pin DMX connector&lt;/p&gt;</description>
+<pin name="GND" x="7.62" y="-5.08" length="short" rot="R180"/>
+<pin name="D+" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="D-" x="7.62" y="5.08" length="short" rot="R180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XLR-3" prefix="J">
+<description>&lt;h3&gt;Neutrik XLR-3 Jack - XLR-3 Jack for DMX&lt;/h3&gt;
+&lt;p&gt;Symbol for a horizontal, 3-pin DMX connector&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XLR-3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MALE" package="XLR-3_MALE">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14141" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-FEMALE" package="XLR-3_FEMALE">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14142" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1480,6 +1607,10 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="DGND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="XLR-3" device="-FEMALE"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="XLR-3" device="-MALE"/>
+<part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="DGND" device=""/>
+<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1510,12 +1641,26 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 <instance part="GND2" gate="G$1" x="81.28" y="48.26" smashed="yes">
 <attribute name="VALUE" x="81.28" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="5.08" y="96.52" smashed="yes">
-<attribute name="VALUE" x="5.08" y="99.314" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="2.54" y="93.98" smashed="yes">
+<attribute name="VALUE" x="2.54" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="96.52" y="58.42" smashed="yes">
 <attribute name="NAME" x="96.52" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="96.52" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="J2" gate="G$1" x="81.28" y="111.76" smashed="yes">
+<attribute name="NAME" x="76.2" y="119.634" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="76.2" y="101.6" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J3" gate="G$1" x="106.68" y="111.76" smashed="yes" rot="MR0">
+<attribute name="NAME" x="111.76" y="119.634" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="111.76" y="101.6" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
+<instance part="GND3" gate="G$1" x="93.98" y="96.52" smashed="yes">
+<attribute name="VALUE" x="93.98" y="96.266" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND4" gate="G$1" x="2.54" y="30.48" smashed="yes">
+<attribute name="VALUE" x="2.54" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -1535,13 +1680,13 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5V@2"/>
-<wire x1="7.62" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<wire x1="5.08" y1="91.44" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="91.44" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5V@4"/>
-<wire x1="7.62" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="88.9" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
-<junction x="5.08" y="91.44"/>
+<wire x1="7.62" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="88.9" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
+<junction x="2.54" y="91.44"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1556,6 +1701,49 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 <pinref part="GND2" gate="G$1" pin="GND"/>
 <wire x1="81.28" y1="55.88" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="GND"/>
+<wire x1="88.9" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="G$1" pin="GND"/>
+<wire x1="93.98" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="99.06" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<junction x="93.98" y="106.68"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND@6"/>
+<wire x1="7.62" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@9"/>
+<wire x1="2.54" y1="50.8" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="48.26" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="43.18" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="40.64" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="35.56" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<junction x="2.54" y="50.8"/>
+<pinref part="J1" gate="G$1" pin="GND@14"/>
+<wire x1="7.62" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<junction x="2.54" y="48.26"/>
+<pinref part="J1" gate="G$1" pin="GND@20"/>
+<wire x1="7.62" y1="45.72" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
+<junction x="2.54" y="45.72"/>
+<pinref part="J1" gate="G$1" pin="GND@25"/>
+<wire x1="7.62" y1="43.18" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<junction x="2.54" y="43.18"/>
+<pinref part="J1" gate="G$1" pin="GND@30"/>
+<wire x1="7.62" y1="40.64" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
+<junction x="2.54" y="40.64"/>
+<pinref part="J1" gate="G$1" pin="GND@34"/>
+<wire x1="7.62" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<junction x="2.54" y="38.1"/>
+<pinref part="J1" gate="G$1" pin="GND@39"/>
+<wire x1="7.62" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<junction x="2.54" y="35.56"/>
+<pinref part="GND4" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="B" class="0">
 <segment>
@@ -1567,6 +1755,16 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 <wire x1="88.9" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 <junction x="88.9" y="58.42"/>
 <label x="96.52" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="D-"/>
+<pinref part="J3" gate="G$1" pin="D-"/>
+<wire x1="88.9" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<junction x="96.52" y="116.84"/>
+<label x="116.84" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -1580,6 +1778,16 @@ Warning: This is the KIT version of the AXIAL-0.1 package. This package has a sm
 <junction x="88.9" y="60.96"/>
 <wire x1="88.9" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="D+"/>
+<pinref part="J3" gate="G$1" pin="D+"/>
+<wire x1="88.9" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="111.76" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<junction x="91.44" y="111.76"/>
+<wire x1="91.44" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
+<label x="116.84" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
